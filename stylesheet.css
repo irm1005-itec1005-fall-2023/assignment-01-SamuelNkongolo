@@ -27,14 +27,15 @@
 }
 
 .title{
-    text-align: center;
+    text-align:left;
     size: 80px;
     font: bold;
     font-style: oblique;
+    padding-left: 110px;
 }
 
 .heading{
-    font-size: 140px;
+    font-size: 100px;
 }
 
 .pain{
@@ -47,4 +48,37 @@
     float: right;
     width: 250px;
     height: 250px;
+}
+
+/* Style for the flex container */
+.flex-container {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+/* Style for the image container (left) */
+.image-container {
+    flex-shrink: 0; /* Takes up 50% of the container width */
+    padding: 10px; /* Add some spacing if needed */
+}
+
+/* Style for the text container (right) */
+.text-container {
+    flex-grow: 1; /* Takes up 50% of the container width */
+    padding-left: 10px; /* Add some spacing if needed */
+}
+
+.flex-container2{
+    display: flex;
+    align-items: center;
+}
+
+.image-container2{
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.text-container2{
+    flex-grow: 1;
+    padding-right: 10px;
 }
