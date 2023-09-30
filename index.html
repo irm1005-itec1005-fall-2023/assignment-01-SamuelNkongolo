@@ -9,9 +9,10 @@
     <link href="stylesheet.css" rel="stylesheet" type="text/css"  >
   </head>
 
-  <header>
+  <body>
 
-  <body class="body1" style="background-color: black;"> 
+  <header>
+  <div class="body1" style="background-color: black;"> 
     <div class="header">
       <div class="logo">
         <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
@@ -20,21 +21,18 @@
         <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
       </div>
       <div>
-        <nav>
-          <ul>
-            <div class="navbar">
-              <a href="#Leader">Meet the Leader</a>
-              <a href="#Our Goal">Our Goal</a>
-              <a href="#Register">Sign Up</a>
-            </div>
-          </ul>
+        <nav class="navbar">
+          <a href="#Leader">Meet the Leader</a>
+          <a href="#OurGoal">Our Goal</a>
+          <a href="#Register">Sign Up</a>
         </nav>
       </div>
       <div class="title">
-        <h1><p style="font-size: 60px;" id="home">Akatsuki</p></h1>
+        <h1 style="font-size: 60px;" id="home">Akatsuki</h1>
       </div>
     </div>
-    </body>
+  </div>
+    
 
 
 
@@ -42,8 +40,8 @@
   
   <main>
       
-      <section>
-      <p><img src="./images/akatsuki grp.jpg" height="400" width="100%" alt="group photo of akatsuki"></p>
+      <section style="background-color: black;">
+      <p><img src="./images/akatsukigrp.jpg" height="400" width="1517" alt="group photo of akatsuki"></p>
       <h2 id="Leader" class="heading" style="text-align: center; color: red;">The Leader</h2>
       <p>
 
@@ -54,7 +52,7 @@
 
    
        
-    <div class="flex-container">
+    <div class="flex-container" style="background-color: black;">
         <div class="image-container">
             <img class="pain" src="./images/Pain.jpg" alt="a photo of Pain, the leader of the Akatsuki">
         </div>
@@ -69,11 +67,11 @@
         </div>
     </div>
 
-    <section>
-      <h2 id="Our Goal" class="heading" style="text-align: center; color: red;">Our Goal</h2>
+    <section style="background-color: black;">
+      <h2 id="OurGoal" class="heading" style="text-align: center; color: red;">Our Goal</h2>
     </section>
 
-    <div class="flex-container2">
+    <div class="flex-container2" style="background-color: black;">
         <div class="text-container2">
             <p style="font-style: oblique; font-size: 30px; padding-left: 10px;">
                 The goal of the Akatsuki is a vision brought onto us by our leader. We seek true peace in this world and vow to
@@ -89,15 +87,13 @@
         </div>
     </div>
 
-    <section>
+    <section style="background-color: black;">
       <h2 id="Register" class="heading" style="text-align: center; color: red;">Want to join us?</h2>
     </section>
 
-    <div class="flex-container3">
+    <div class="flex-container3" style="background-color: black;">
       <div class="text-container3" style="line-height: 50px;">
-          <p style="font-style: oblique; font-size: 30px; padding-left: 10px;">
-              <h3>Sign up now to become part of the Akatsuki!!!</h3>
-          </p>
+              <h3 style="font-style: oblique; font-size: 30px; padding-left: 10px;">Sign up now to become part of the Akatsuki!!!</h3>
         
         <form>
           <fieldset>
@@ -115,9 +111,13 @@
             <input type="tel" id="phone" name="phone" autocomplete="tel" />
           </p>
           <p>
+            <label for="name">Age:</label>
+            <input type="text" id="name" name="name" autocomplete="name"
+          />
+          <p>
             <input type="checkbox" id="consent" name="consent" required />
             <label for="consent">I understand what I signed up for.</label>
-            <input type="submit" value="Submit Feedback" />
+            <input type="submit" value="Submit " />
           </p>
           </fieldset>
         </form>
@@ -127,11 +127,11 @@
       </div>
     </div>
 
-  <section>
+  <section style="background-color: black;">
     <h2 id="Members" class="heading" style="text-align: center; color: red;">Member Testemonials</h2>
   </section>
 
-  <div class="flex-container">
+  <div class="flex-container" style="background-color: black;">
     <div class="image-container">
         <img class="pain" src="./images/messi.jpg" alt="messi in akatsuki outfit">
     </div>
@@ -143,8 +143,8 @@
     </div>
    </div>
 
-   <div class="flex-container">
-    <div class="image-container">
+   <div class="flex-container" style="background-color: black;">
+    <div class="image-container" style="background-color: black;">
         <img class="pain" src="./images/kpop.jpg" alt="messi in akatsuki outfit">
     </div>
     <div class="text-container">
@@ -158,35 +158,30 @@
   </main>
 
   <footer>
-    <body style="background-color: black;" text="white">
+    <div class="body1" style="background-color: black;">
       <div class="header">
         <div class="logo">
           <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
         </div>
-        <div>
-    <nav>
-      <ul>
-        <div class="navbar">
-          <a href="#Leader">Meet the Leader</a>
-          <a href="#Our Goal">Our Goal</a>
-          <a href="#Register">Sign Up</a>
-        </div>
-      </ul>
+      </div>
+    <nav class="navbar">
+        <a href="#Leader">Meet the Leader</a>
+        <a href="#OurGoal">Our Goal</a>
+        <a href="#Register">Sign Up</a>
     </nav>
       </div>
-        <div class="title2">
-          <h1><p style="font-size: 60px; padding-left: 1150px;" id="home">Akatsuki</p></h1>
+        <div class="title">
+          <div class="bottom">
+            <a href="#">+69(343)-996-2422-34332</a>
+            &copy; 2023
         </div>
-      </div>
+          <h1 style="font-size: 60px; padding-left: 740px;">Akatsuki</h1>
+          
+        </div>
 
-      <div class="bottom">
-        <ul>
-          &copy; 2023
-          <a href="#">+69(343)-996-2422-34332</a>
-        </ul>
-      </div>
 
   </footer>
+  </body>
 
 </html>
 
