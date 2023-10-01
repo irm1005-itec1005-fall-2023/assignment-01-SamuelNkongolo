@@ -1,60 +1,204 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>My Webpage</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css"  >
   </head>
+
   <body>
-    <!--
 
-      LIST ANY CITATIONS HERE
+  <header>
+  <div class="body1" style="background-color: black;"> 
+    <div class="header">
+      <div class="logo">
+        <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
+      </div>
+      <div class="logo2">
+        <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
+      </div>
+      <div>
+        <nav class="navbar">
+          <a href="#Leader">Meet the Leader</a>
+          <a href="#OurGoal">Our Goal</a>
+          <a href="#Register">Sign Up</a>
+        </nav>
+      </div>
+      <div class="title">
+        <h1 style="font-size: 60px;" id="home">Akatsuki</h1>
+      </div>
+    </div>
+  </div>
+    
 
-        * A
-        * B
 
-    -->
 
-    <!--
+  </header>
+  
+  <main>
+      
+      <section style="background-color: black;">
+      <p><img src="./images/akatsukigrp.jpg" height="400" width="1517" alt="group photo of akatsuki"></p>
+      <h2 id="Leader" class="heading" style="text-align: center; color: red;">The Leader</h2>
+      <p>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+      </p>
+    </section>
 
-    -->
 
-    <h1>Assignment 01 - To Be Completed</h1>
+
+   
+       
+    <div class="flex-container" style="background-color: black;">
+        <div class="image-container">
+            <img class="pain" src="./images/Pain.jpg" alt="a photo of Pain, the leader of the Akatsuki">
+        </div>
+        <div class="text-container">
+            <p style="font-style: oblique; font-size: 30px;">
+                Pain is the leader of the Akatsuki aswell as one of the Main Villans. He was born in the Hidden Rain Village, 
+                where he resides for majority of the show.
+                He was taken in and looked after by one of the three legendary Sanin, Jiraiya. He posses the rinnegan
+                (A powerful eye weapon)
+                and he seeks out peace in his own unique way.
+            </p>
+        </div>
+    </div>
+
+    <section style="background-color: black;">
+      <h2 id="OurGoal" class="heading" style="text-align: center; color: red;">Our Goal</h2>
+    </section>
+
+    <div class="flex-container2" style="background-color: black;">
+        <div class="text-container2">
+            <p style="font-style: oblique; font-size: 30px; padding-left: 10px;">
+                The goal of the Akatsuki is a vision brought onto us by our leader. We seek true peace in this world and vow to
+                deliver. We track down all major world leaders and force them into a game of hopscotch. The winner of the game 
+                gets to call the shots from now on. Already in charge of 40% of the worlds population, we as the akatsuki
+                seek higher power from stronger nations. We ensure safety and protection to all our members. As we have 300 
+                million mebers and counting. We also hold free pizza night every Thursdays and go tp the beach on Saturdays. 
+                Why dont u check out what <a class="a1" href="#Members">members have to say.</a> 
+            </p>
+        </div>
+        <div class="image-container2">
+            <img class="itachi" src="./images/akatsuki.jpg" alt="akatsuki logo">
+        </div>
+    </div>
+
+    <section style="background-color: black;">
+      <h2 id="Register" class="heading" style="text-align: center; color: red;">Want to join us?</h2>
+    </section>
+
+    <div class="flex-container3" style="background-color: black;">
+      <div class="text-container3" style="line-height: 50px;">
+              <h3 style="font-style: oblique; font-size: 30px; padding-left: 10px;">Sign up now to become part of the Akatsuki!!!</h3>
+        
+        <form>
+          <fieldset>
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="name"
+          />
+
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+          </p>
+          <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </p>
+          <p>
+            <label for="name">Age:</label>
+            <input type="text" id="name" name="name" autocomplete="name"
+          />
+          <p>
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">I understand what I signed up for.</label>
+            <input type="submit" value="Submit " />
+          </p>
+          </fieldset>
+        </form>
+      </div>
+      <div class="image-container3">
+          <img class="itachi" src="images/kakuzu.jpg" alt="kakazu">
+      </div>
+    </div>
+
+  <section style="background-color: black;">
+    <h2 id="Members" class="heading" style="text-align: center; color: red;">Member Testemonials</h2>
+  </section>
+
+  <div class="flex-container" style="background-color: black;">
+    <div class="image-container">
+        <img class="pain" src="./images/messi.jpg" alt="messi in akatsuki outfit">
+    </div>
+    <div class="text-container">
+        <p style="font-style: oblique; font-size: 30px;">
+            "I been so happy ever since I joined the Akatsuki Clan."
+            - Lional Messi
+        </p>
+    </div>
+   </div>
+
+   <div class="flex-container" style="background-color: black;">
+    <div class="image-container" style="background-color: black;">
+        <img class="pain" src="./images/kpop.jpg" alt="messi in akatsuki outfit">
+    </div>
+    <div class="text-container">
+        <p style="font-style: oblique; font-size: 30px;">
+            "Ever since I joined the Akatsuki Clan, my Kpop career has shot up"
+            - Random Kpop girl named JiU
+        </p>
+    </div>
+   </div>
+
+  </main>
+
+  <footer>
+    <div class="body1" style="background-color: black;">
+      <div class="header">
+        <div class="logo">
+          <a href="#home"><img src="./images/chibi-itachi.png" class="logo" alt="chibi-itachi"></a>
+        </div>
+      </div>
+    <nav class="navbar">
+        <a href="#Leader">Meet the Leader</a>
+        <a href="#OurGoal">Our Goal</a>
+        <a href="#Register">Sign Up</a>
+    </nav>
+      </div>
+        <div class="title">
+          <div class="bottom">
+            <a href="#">+69(343)-996-2422-34332</a>
+            &copy; 2023
+        </div>
+          <h1 style="font-size: 60px; padding-left: 740px;">Akatsuki</h1>
+          
+        </div>
+
+
+  </footer>
   </body>
+
 </html>
+
+<!--
+  Bibliography:
+  Youtube:
+  https://www.youtube.com/watch?v=GxwHXxumdQk 
+  https://www.youtube.com/watch?v=NdUr0akpqAM
+  https://www.youtube.com/watch?v=-C-qR1gziNc
+  https://www.youtube.com/watch?v=eROXDNu-T9o
+
+  images:
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Farte--591801207289410609%2F&psig=AOvVaw3enJYjraZ4RsAl2doHI1qo&ust=1696281983925000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDF9fjk1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F14415388-AKATSUKI&psig=AOvVaw2xcxRN-tw3JDsDO-X12h2T&ust=1696282022018000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCAiovl1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fdreamcatcher%2Fcomments%2Fukzr5d%2Fjiu_is_now_a_member_of_akatsuki%2F&psig=AOvVaw0FaQZ3hZuwTivTmyoAQ_gR&ust=1696282170700000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDk-dHl1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fitsmesreejaya.medium.com%2Flifes-greatest-lessons-are-learned-through-pain-39428298e1c4&psig=AOvVaw0YTgpQEhhMHjK6eWqwQ4Kl&ust=1696282215937000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMidzOfl1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FNaruto%2Fcomments%2Fcx6all%2Fthe_only_thing_you_can_count_on_in_money%2F&psig=AOvVaw2p1PZ-7PEbUN4XBTzrgFSD&ust=1696282241348000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDLxfPl1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fminimalist-glowing-akatsuki-cloud-5gzu10dk2xlcv93m.html&psig=AOvVaw3XEo28QtW8QIQwjIfBn7S8&ust=1696282323575000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDnl5vm1YEDFQAAAAAdAAAAABAE
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Ftigazzydesigns%2Fart%2FItachi-mascot-logo-809489657&psig=AOvVaw228QkTxbDe_iyjtEO2RQJ2&ust=1696282125007000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCRk7zl1YEDFQAAAAAdAAAAABAE
+-->
